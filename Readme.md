@@ -47,16 +47,3 @@ La interfaz de usuario se desarrolla con Streamlit y consta de tres secciones pr
 ### Sección de Eliminación de Archivos
 ![alt text](./data/image3.png)
 
-MONGOATLAS/
-├── app.py                  # Archivo principal que ejecuta la aplicación
-├── .env                    # Variables de entorno
-├── requirements.txt        # Dependencias del proyecto
-├── data/                   # Carpeta para datos temporales o logos
-│   └── logo.png            # Logo de la aplicación
-├── utils/                  # Módulos de utilidades
-│   ├── mongo_utils.py      # Funciones relacionadas con MongoDB
-│   ├── azure_utils.py      # Funciones relacionadas con Azure Document Intelligence
-│   ├── openai_utils.py     # Funciones relacionadas con OpenAI
-│   └── file_utils.py       # Funciones para manejo de archivos
-└── ui/                     # Componentes de la interfaz de usuario
-    └── streamlit_ui.py     # Lógica de la interfaz de Streamlit
